@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "VSCode",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWhenNoErrors": true,
+    "editor.formatOnSave": true
+}
