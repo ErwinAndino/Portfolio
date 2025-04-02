@@ -30,11 +30,8 @@
    top: 10%;
    z-index: 5;
    width: 20em;
-   /* Tamaño de la imagen */
    height: 20em;
-   /* Tamaño de la imagen */
    border-radius: 100%;
-   /* Forma redondeada */
    object-fit: fill;
    padding: 1em;
  }
@@ -51,14 +48,12 @@
  p {
    font-size: 1em;
    line-height: 1.5;
-   /* Espaciado entre líneas */
    margin: 0;
  }
 
  b {
    font-size: 2em;
    line-height: 1.5;
-   /* Espaciado entre líneas */
    margin: 0;
  }
 
@@ -87,7 +82,7 @@
    transform: translate(-50%, -50%);
  }
 
- /* imagenes centradas (no se si hace algo pero me da miedo borrarlo)*/
+ /* imagenes centradas */
  img {
    display: block;
    margin: 0 auto;
@@ -108,21 +103,16 @@
  .container {
    display: flex;
    justify-content: space-between;
-   /* Espacio entre los elementos */
    align-items: center;
-   /* Centrar verticalmente */
    width: 100%;
    padding-top: 1em;
    padding-bottom: 1em;
-   /* Asegura que ocupe todo el ancho */
  }
 
  /* parte izquierda del renglon */
  .left {
    width: 50%;
-   /* Ocupa la mitad izquierda */
    text-align: center;
-   /* Centra el texto horizontalmente */
  }
 
  /* texto de la parte izquierda */
@@ -138,19 +128,14 @@
  .lefttextcentro {
    display: flex;
    justify-content: center;
-   /* Centra horizontalmente el contenido */
    align-items: center;
-   /* Centra verticalmente el contenido */
    width: 100%;
-   /* Asegura que ocupe todo el ancho */
  }
 
  /* parte derecha del renglon */
  .right {
    width: 50%;
-   /* Ocupa la mitad derecha */
    text-align: center;
-   /* Centra la imagen horizontalmente */
 
 
  }
@@ -158,42 +143,28 @@
 
  nav ul {
    list-style: none;
-   /* Elimina los puntos de la lista */
    padding: 0;
-   /* Elimina el padding del contenedor */
    display: flex;
-   /* Coloca los elementos en línea */
    justify-content: center;
-   /* Centra los botones horizontalmente */
    gap: 1em;
-   /* Espaciado entre los botones */
  }
 
  nav ul li {
    margin: 0;
-   /* Elimina márgenes adicionales */
  }
 
  nav ul li a {
    display: inline-block;
-   /* Permite aplicar padding y bordes */
    padding: 10px 20px;
-   /* Espaciado interno del botón */
    background-color: #333;
-   /* Color de fondo del botón */
    color: white;
-   /* Color del texto */
    text-decoration: none;
-   /* Elimina el subrayado */
    border-radius: 5px;
-   /* Bordes redondeados */
    transition: background-color 0.3s ease;
-   /* Animación para el hover */
  }
 
  nav ul li a:hover {
    background-color: #555;
-   /* Cambia el color de fondo al pasar el mouse */
  }
 
  .has-background {
@@ -239,21 +210,15 @@
 
  .curve {
    position: absolute;
-   /* Posiciona el SVG dentro del contenedor */
    bottom: 0;
-   /* Asegura que el SVG esté en la parte inferior del contenedor */
    left: 0;
    width: 100%;
-   /* Asegura que el SVG cubra todo el ancho del contenedor */
    height: auto;
-   /* Ajusta la altura automáticamente */
 
  }
 
  .curve-2 {
-   /* Posiciona el SVG dentro del contenedor */
    top: 3.5em;
-   /* Asegura que el SVG esté en la parte inferior del contenedor */
    left: 0;
    transform: rotate(180deg);
 
@@ -261,73 +226,51 @@
 
  #Presentacion {
    padding: 20px;
-   /* Espaciado interno para que el contenido no toque los bordes */
    background-color: #08D9D6;
-   /* Color de fondo */
    background-image: linear-gradient(to bottom, #0957a0, #6A2C70);
-   /* Degradado de color */
  }
 
  #Estudios {
    padding: 20px;
-   /* Espaciado interno para que el contenido no toque los bordes */
    background-color: rgb(229, 240, 72);
    background-image: linear-gradient(to bottom, #6A2C70, #B83B5E);
-   /* Degradado de color */
  }
 
  #Gustos {
    background-color: #7dd0df;
    background-image: linear-gradient(to bottom, #B83B5E, #F08A5D);
-   /* Degradado de color */
  }
 
  #Proyectos {
 
    padding: 20px;
-   /* Espaciado interno para que el contenido no toque los bordes */
    background-color: rgb(202, 160, 112);
    background-image: linear-gradient(to bottom, #F08A5D, #F9ED69);
-   /* Degradado de color */
  }
 
  footer {
    background-image: linear-gradient(to bottom, #bbb24f, #000000);
-   /* Degradado de color */
    padding: 0;
-   /* Espaciado interno para que el contenido no toque los bordes */
    color: #fff;
  }
 
  .cajaestudios {
    background-image: radial-gradient(circle, #B771E5, #4635B1);
-   /* Degradado radial de color */
    border: 2px solid #ffffff;
-   /* Borde del cuadro */
    border-radius: 2em;
-   /* Bordes redondeados */
    padding: 20px;
-   /* Espaciado interno */
    margin: 20px auto;
-   /* Espaciado externo y centra el cuadro */
    width: 80%;
-   /* Ancho del cuadro */
    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-   /* Sombra para darle profundidad */
  }
 
  .cajagustos {
    background-color: red;
    background-image: radial-gradient(circle, #d4824b, #8f2a9c);
-   /* Degradado radial de color */
-   /* Ancho del cuadro */
-   /* height: 50em; */
    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-   /* Sombra para darle profundidad */
    padding-top: 3em;
    padding-bottom: 5em;
    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-   /* Forma con líneas diagonales */
  }
 
  .cajagustos-center {
@@ -337,35 +280,23 @@
 
  .cajaproyectos {
    background-image: radial-gradient(circle, #db9f1d, #f9105e);
-   /* Degradado radial de color */
    border: 2px solid #ffffff;
-   /* Borde del cuadro */
    border-radius: 2em;
-   /* Bordes redondeados */
    padding: 20px;
-   /* Espaciado interno */
    margin: 20px auto;
-   /* Espaciado externo y centra el cuadro */
    width: 80%;
-   /* Ancho del cuadro */
    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-   /* Sombra para darle profundidad */
  }
 
 
  .cajacontacto {
    background-image: radial-gradient(circle, #252525, #000000);
-   /* Degradado radial de color */
    border: 2px solid #000000;
-   /* Borde del cuadro */
    margin: 0;
    width: 100%;
-   /* Ancho del cuadro */
    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-   /* Sombra para darle profundidad */
  }
 
- /* From Uiverse.io by MarcLazz */
  .button-container {
    display: flex;
    justify-content: center;
